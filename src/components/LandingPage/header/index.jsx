@@ -1,5 +1,5 @@
-import logo from '../../../images/logofordabo.png'
-import lock from '../../../images/login.png'
+import logo from '/src/images/logofordabo.png'
+import lock from '/src/images/login.png';
 import { Link } from 'react-router-dom';
 import HamburgerMenu from '../../hamburgerMenu';
 import { useContext } from 'react';

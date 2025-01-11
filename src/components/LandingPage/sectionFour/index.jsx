@@ -1,6 +1,6 @@
-import tooglemenu from '../../../images/Group85.png'
-import BG from '../../../images/exportBg.png'
- import BG2 from '../../../images/exportBG2.png'
+import tooglemenu from '/src/images/Group85.png'
+import BG from '/src/images/exportBg.png'
+ import BG2 from '/src/images/exportBG2.png'
 
 
 

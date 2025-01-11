@@ -1,9 +1,9 @@
-import settingIcon from '../../../images/setting2.png'
-import dollarIcon from '../../../images/dollarIcon.png'
-import vector from '../../../images/vector.png'
-import Gift from '../../../images/Gift.png'
-import surface1 from '../../../images/surface1.png'
-import  dashboard from '../../../images/socialdashboard.png'
+import settingIcon from '/src/images/setting2.png'
+import dollarIcon from '/src/images/dollarIcon.png'
+import vector from '/src/images/vector.png'
+import Gift from '/src/images/Gift.png'
+import surface1 from '/src/images/surface1.png'
+import  dashboard from '/src/images/socialdashboard.png'
 
 
 

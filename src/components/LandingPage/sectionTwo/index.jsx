@@ -1,9 +1,9 @@
 
-import Avatar from '../../../images/SectionAvatar.png'
-import Arrow from '../../../images/arrowDabo.png'
-import chatImg from '../../../images/messengerdabo.png'
-import builtApp from '../../../images/builtApp.png'
-import bluetick from '../../../images/bluetick.png'
+import Avatar from '/src/images/sectionAvatar.png'
+import Arrow from '/src/images/arrowDabo.png'
+import chatImg from '/src/images/messengerdabo.png'
+import builtApp from '/src/images/builtApp.png'
+import bluetick from '/src/images/bluetick.png'
 import { Link } from 'react-router-dom'
 
 

@@ -1,5 +1,5 @@
-import CompanyIcon from '../../../images/logo2.png'
-import Landingillustration from '../../../images/Landingillustration.png'
+import CompanyIcon from '/src/images/logo2.png'
+import Landingillustration from '/src/images/Landingillustration.png'
 
 
 

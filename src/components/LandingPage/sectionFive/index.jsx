@@ -1,5 +1,5 @@
 
-import avatar from '../../../images/footeravatar.png'
+import avatar from '/src/images/footeravatar.png'
 
 
 
