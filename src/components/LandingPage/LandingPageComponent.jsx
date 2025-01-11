@@ -20,7 +20,7 @@ function LandingPage() {
             <header className=" ps-5 pe-5 md:ps-24 md:pe-24 ">
                 <NavBar />
             </header>
-
+          
             <div className=" ps-5 pe-5 md:ps-24 md:pe-24 pt-11 md:pt-36 ">
                 <HeroSction />
             </div>

@@ -1,9 +1,9 @@
 import logo from '/src/images/logofordabo.png'
 import lock from '/src/images/login.png';
 import { Link } from 'react-router-dom';
-import HamburgerMenu from '../../hamburgerMenu';
 import { useContext } from 'react';
 import  { GlobalContext } from '../../contextApi';
+
 
 
 
@@ -21,7 +21,7 @@ const {showMenu, TogleMenu} = useContext(GlobalContext)
         <nav className='pt-8 flex justify-between'>
 
             <div className='flex  items-center w-5/6 gap-9 '>
-                <img src={logo} alt="Company Logo" />
+                <img src={logo} alt="Company Logo" className=' object-contain' />
 
                 <ul className=' hidden xl:flex justify-between items-center gap-10 text-customBlue font-semibold'>
                     <li>
@@ -52,9 +52,8 @@ const {showMenu, TogleMenu} = useContext(GlobalContext)
                     </Link>
                 </div>
 
-                <div>
-                    <HamburgerMenu/>
-                </div>
+             
+                
                 <button className='flex items-center  xl:hidden' onClick={TogleMenu}>
                     {
                         showMenu ? (
@@ -65,9 +64,8 @@ const {showMenu, TogleMenu} = useContext(GlobalContext)
                     }
                   
                 </button>
-            
-
-
+                
+               
 
         </nav>
     )

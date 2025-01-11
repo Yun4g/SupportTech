@@ -1,5 +1,7 @@
 import CompanyIcon from '/src/images/logo2.png'
 import Landingillustration from '/src/images/Landingillustration.png'
+import HamburgerMenu from '../../hamburgerMenu'
+
 
 
 
@@ -9,8 +11,16 @@ import Landingillustration from '/src/images/Landingillustration.png'
 
 
 function HeroSction() {
+
+
+
+
     return(
-         <section className=' lg:flex lg:h-[80vh]  justify-center  '>
+         <section className=' lg:flex lg:h-[80vh]  justify-center   '>
+           <div className={` block lg:hidden z-50  p-3   w-full absolute top-20 left-0 overflow-x-hidden`}>
+                         <HamburgerMenu />
+           </div>
+
             <div className=' lg:w-3/4 xl:w-[40%] ' >
                 
               <h1 className=' sm:text-3xl md:text-5xl text-start font-semibold leading-tight text-customBlue'>Ultimate support system for leading agencies</h1>

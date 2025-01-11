@@ -10,7 +10,6 @@ import { Link } from 'react-router-dom'
 
 
 
-
 function SectionTwo() {
     return (
         <section className=" w-full bg h-fit  bg-slate-100  ps-5 pe-5 md:ps-24 md:pe-24 pt-11 md:pt-36  ">

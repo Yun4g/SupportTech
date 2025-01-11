@@ -6,13 +6,14 @@ import { GlobalContext } from "../contextApi"
 
 
 
+
 function HamburgerMenu() {
 
-        const {showMenu} = useContext(GlobalContext)  
+       const {showMenu} = useContext(GlobalContext)  
 
 
      return(
-          <nav className={`absolute top-20 p-3 left-0 bg-white w-full transition-transform  duration-300 ${showMenu ? ' translate-x-0' : 'translate-x-full'} `}>
+          <nav className={`bg-white w-full p-3  transition-transform  duration-300 ${showMenu ? ' translate-x-0' : ' translate-x-full'} `} >
              
                              <ul className=' flex flex-col justify-between items-center gap-10 text-customBlue font-semibold'>
                                  <li>
