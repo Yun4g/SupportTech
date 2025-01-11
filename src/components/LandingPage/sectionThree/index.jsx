@@ -9,8 +9,8 @@ import  dashboard from '/src/images/socialdashboard.png'
 
 function SectionThree() {
     return (
-        <section className=" h-fit ps-2 lg:ps-24   bg-bg-purple pt-36 ps">
-            <div className=' grid gap-4 lg:gap-0 grid-cols-2 md:grid-cols-5  w-[290px] '>
+        <section className=" h-fit ps-2 pe-2 lg:ps-24   bg-bg-purple pt-36">
+            <div className=' grid gap-4  lg:gap-0 grid-cols-2 md:grid-cols-5 justify-center  p-2 md:p-0  md:w-full lg:w-4/5 '>
                 <div className=" mt-4 md:mt-0 h-20  ">
                     <div className=' h-1/2'>
                         <img src={dollarIcon} alt="" />
