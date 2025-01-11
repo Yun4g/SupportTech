@@ -1,5 +1,4 @@
-import logo from '../../../images/logofordabo.png';
-import searchIcon from '../../../images/searchnIcon.png'
+import logo from '../../../images/logofordabo.png'
 import lock from '../../../images/login.png'
 import { Link } from 'react-router-dom';
 import HamburgerMenu from '../../hamburgerMenu';
@@ -41,9 +40,7 @@ const {showMenu, TogleMenu} = useContext(GlobalContext)
                     <li>
                         <Link to="/about">About</Link> {/* Use 'to' prop for navigation */}
                     </li>
-                    <li>
-                        <img src={searchIcon} alt="Search Icon" />
-                    </li>
+                    
                 </ul>
                 </div>
                 <div className='hidden xl:flex gap-4 justify-end  items-center'>

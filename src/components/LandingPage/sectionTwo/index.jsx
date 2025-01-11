@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom'
 
 function SectionTwo() {
     return (
-        <section className=" w-full bg h-fit  ps-5 pe-5 md:ps-24 md:pe-24 pt-11 md:pt-36  ">
+        <section className=" w-full bg h-fit  bg-slate-100  ps-5 pe-5 md:ps-24 md:pe-24 pt-11 md:pt-36  ">
             <div className='lg:flex justify-center gap-7 '>
                 <div className='border rounded-md lg:w-1/3 md:flex justify-center gap-4 md:h-52 shadow-lg shadow-gray-400 p-5  '>
                     <div className="images">

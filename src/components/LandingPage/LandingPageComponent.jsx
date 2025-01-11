@@ -25,7 +25,7 @@ function LandingPage() {
                 <HeroSction />
             </div>
               
-             <div  className=" ps-5 pe-5 md:ps-24 md:pe-24 pt-11 md:pt-36 ">
+             <div  className=" ps-5 pe-5  lg:p-0 pt-11 md:pt-36 ">
                  <SectionTwo/>  
              </div>
          
