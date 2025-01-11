@@ -21,7 +21,7 @@ const {showMenu, TogleMenu} = useContext(GlobalContext)
     return (
         <nav className='pt-8 flex justify-between'>
 
-            <div className='flex  items-center gap-9 '>
+            <div className='flex  items-center w-5/6 gap-9 '>
                 <img src={logo} alt="Company Logo" />
 
                 <ul className=' hidden xl:flex justify-between items-center gap-10 text-customBlue font-semibold'>
@@ -46,7 +46,7 @@ const {showMenu, TogleMenu} = useContext(GlobalContext)
                     </li>
                 </ul>
                 </div>
-                <div className='hidden xl:flex gap-4 items-center'>
+                <div className='hidden xl:flex gap-4 justify-end  items-center'>
                     <Link to="/login" className='flex gap-3 text-customBlue font-semibold'>
                         <img src={lock} alt="Login Icon" /> Login
                     </Link>
